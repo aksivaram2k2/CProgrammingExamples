@@ -13,7 +13,7 @@
  check from min onwards by increment 
  if nothing found then add 1 and it is next missing
  if it finds something within sorted range then first one would be our answer
-  
+ Need to be fixed for case  
  **/
  
 #include<stdio.h>
@@ -49,6 +49,9 @@ void main()
          }
     }   
 
+	//After Sort Remove Duplicates, This ensures postion is valid
+	//This step need to be added
+	
     if(min > 1)
     {
           printf("Missing element is 1");
